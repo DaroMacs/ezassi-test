@@ -1,0 +1,40 @@
+
+@media screen and (max-width: 992px) {
+  #body-container { display: flex; flex-direction: column; }
+  #a { order: 1; }
+  #b { order: 3; }
+  #c { order: 2; }
+}
+
+
+.float{
+	/* position:fixed; */
+	/* position: absolute; */
+  width:60px;
+	height:60px;
+	margin-top:-30px;
+	/* right:40px; */
+	background-color:#0C8FA2;
+	color:#FFF;
+	border-radius:5px;
+	/* text-align:center; */
+	box-shadow: 2px 2px 3px #999;
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.checked {
+  color: orange;
+}
+
+.posted-text {
+  font-size: 12px;
+}
+
+.stars {
+  margin-top: 2px;
+  font-size: 11px;
+}
