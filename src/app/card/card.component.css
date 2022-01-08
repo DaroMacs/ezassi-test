@@ -38,3 +38,11 @@ a, a:hover, a:focus, a:active {
   margin-top: 2px;
   font-size: 11px;
 }
+
+#review-score {
+  color: white;
+  background-color: #FF9800;
+  padding: 0px 10px;
+  border-radius: 30px;
+
+}
