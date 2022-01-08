@@ -1,9 +1,16 @@
 
 @media screen and (max-width: 992px) {
-  #body-container { display: flex; flex-direction: column; }
+  #body-container, #table { display: flex; flex-direction: column; }
   #a { order: 1; }
   #b { order: 3; }
   #c { order: 2; }
+  #a1 { order: 3; }
+  #a2 { order: 2; }
+  #a3 { order: 1; }
+
+
+
+
 }
 
 
@@ -44,5 +51,4 @@ a, a:hover, a:focus, a:active {
   background-color: #FF9800;
   padding: 0px 10px;
   border-radius: 30px;
-
 }
