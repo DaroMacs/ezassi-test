@@ -2,27 +2,20 @@
   <div class="row col-12 pt-5"></div>
   <h3>Ezassi Angular Test</h3>
   <h6>by Dario Macedo</h6>
-  <app-card></app-card>
-  <app-card></app-card>
-  <app-card></app-card>
-  <app-card></app-card>
-  <app-card></app-card>
-  <app-card></app-card>
-  <app-card></app-card>
-  <app-card></app-card>
-  <app-card></app-card>
-  <app-card></app-card>
-  <app-card></app-card>
-  <app-card></app-card>
-  <app-card></app-card>
-  <app-card></app-card>
-  <app-card></app-card>
-  <app-card></app-card>
-  <app-card></app-card>
-  <app-card></app-card>
-  <app-card></app-card>
-  <app-card></app-card>
-  <app-card></app-card>
-  <app-card></app-card>
+</div>
+<div class=""
+    infinite-scroll
+    (scrolled)="onScrollDown($event)"
+    (scrolledUp)="onScrollUp($event)">
+
+      <div class="list-group">
+        <a class="" *ngFor="let i of listArray">
+          <app-card></app-card>
+
+        </a>
+      </div>
 
 </div>
+
+
+

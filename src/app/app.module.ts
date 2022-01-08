@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { CardComponent } from './card/card.component';
+import {InfiniteScrollModule} from 'ngx-infinite-scroll'
 
 
 @NgModule({
@@ -12,7 +13,9 @@ import { CardComponent } from './card/card.component';
     CardComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    InfiniteScrollModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
