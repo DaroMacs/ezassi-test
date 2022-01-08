@@ -1,6 +1,5 @@
 
 import { Component } from '@angular/core';
-const nisPackage = require("../../package.json");
 
 
 @Component({
